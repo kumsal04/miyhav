@@ -1,0 +1,302 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>MiyHav</title>
+    </head>
+    <body>
+
+        <section class="top fixed-top navbar-expand" style="background-color: #F1E7E7;">
+            <div class="container p-1 fs-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-2  col-md-4 col-sm-4 col-4">
+                        <a class="navbar-brand" href="index.html">
+                            <img  src="../img/miyhav-logo.png" alt="MiyHav Logo" width="150" class="img-fluid rounded-circle">
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-5 col-md-6 col-sm-6 col-8 order-lg-last">
+                        <div class="text-end">
+                            
+                              <!-- Hesabım  -->
+                              <a href="account.html" class="btn btn-outline-light text-black">
+                                <i class="fa-solid fa-paw"></i> Hesabım
+                              </a>
+
+                                <!-- Giriş Yap -->
+                                    <a href="login.html" class="btn btn-outline-light text-black">
+                                    <i class="bi bi-person-circle"></i>
+                                    <span>Giriş Yap</span>
+                                    </a>
+
+                                <!-- Kayıt Ol -->
+                                    <a href="register.html" class="btn btn-outline-light text-black">
+                                    <i class="fa-solid fa-user-plus"></i>
+                                    <span>Kayıt Ol</span>
+                                    </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control rounded-pill" placeholder="...">
+                                <button class="btn btn-outline-light text-black">
+                                    <i class="bi bi-search-heart-fill"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg " style="margin-top:159px; background-color: #FFDBDB;">
+            <div class="container">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-top">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbar-top" class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav gap-5">
+                        <li class="nav-item btn btn-outline-light text-black">
+                            <a href="index.html" class="nav-link ">Anasayfa</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-light text-black">
+                            <a href="donation.html" class="nav-link">Bağış Yap</a>
+                        </li>
+                    <li class="nav-item dropdown btn btn-outline-light text-black">
+                        <a href="product.html" class="nav-link">Ürünler</a>
+                    </li>
+                        <li class="nav-item dropdown btn btn-outline-light text-black">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >Markalar</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="" class="dropdown-item">Royal Canin</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Pro Plan (Purina)</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Hill's Science Plan</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Reflex</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Whiskas</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">N&D (Farmina) </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item btn btn-outline-light text-black">
+                            <a href="adoption.html" class="nav-link">Yuva Arayanlar</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-light text-black">
+                            <a href="basket.html" class="nav-link"><i class="bi bi-bag-check"></i>
+                                <span>Sepetim</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+<div class="container py-5">
+  <div class="row">
+
+    <!-- Filtreler -->
+    <div class="col-lg-3 mb-4">
+      <div class="border rounded p-3 shadow-sm">
+        <h5>Filtrele</h5>
+        <hr />
+
+        <div class="mb-3">
+          <label for="priceRange" class="form-label">Fiyat (en fazla): <span id="priceValue">1000</span>₺</label>
+          <input type="range" class="form-range" id="priceRange" min="50" max="10000" step="10" value="1000" />
+        </div>
+
+        <div class="mb-3">
+          <label for="typeSelect" class="form-label">Tür</label>
+          <select class="form-select" id="typeSelect">
+            <option value="">Tümü</option>
+            <option value="Kedi">Kedi</option>
+            <option value="Köpek">Köpek</option>
+          </select>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="categorySelect" class="form-label">Kategori</label>
+          <select class="form-select" id="categorySelect">
+            <option value="">Tümü</option>
+            <option value="Mama">Mama</option>
+            <option value="Oyuncak">Oyuncak</option>
+            <option value="Kum">Kum</option>
+            <option value="Aksesuar">Aksesuar</option>
+            <option value="Takviye Gıda">Takviye Gıda</option>
+            <option value="Ev">Ev</option>
+            <option value="Taşıyıcı">Taşıyıcı</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="brandSelect" class="form-label">Marka</label>
+          <select class="form-select" id="brandSelect">
+            <option value="">Tümü</option>
+            <option value="N&D">N&D</option>
+            <option value="Pro Plan">Pro Plan</option>
+            <option value="Advance">Advance</option>
+            <option value="Ever Clean">Ever Clean</option>
+            <option value="Brit Care">Brit Care</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="ageSelect" class="form-label">Yaş Grubu</label>
+          <select class="form-select" id="ageSelect">
+            <option value="">Tümü</option>
+            <option value="Yavru">Yavru</option>
+            <option value="Yetişkin">Yetişkin</option>
+            <option value="Yaşlı">Yaşlı</option>
+          </select>
+        </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" id="filter-btn">Filtrele</button>
+          <button class="btn btn-secondary" id="reset-btn">Sıfırla</button>
+        </div>
+      </div>
+    </div>
+
+<!-- Kedi Ürün Kartları -->
+<div class="col-lg-9">
+<div class="row g-4" id="urunlerAlani">
+  <!-- Ürün kartları -->
+</div>
+
+</div>
+
+
+  </div>
+</div>
+
+<!-- Ürün Detay Modalı -->
+<div class="modal fade" id="urunDetayModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalUrunIsim">Ürün Adı</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-4">
+          <div class="col-md-5 text-center">
+            <img id="modalUrunGorsel" src="" alt="" class="img-fluid rounded" style="max-height: 350px;" />
+          </div>
+          <div class="col-md-7">
+            <p><strong>Puan:</strong> <span id="modalUrunPuan"></span> ★</p>
+            <p><strong>Değerlendirme:</strong> <span id="modalUrunDegerlendirme"></span></p>
+            <p><strong>İndirim:</strong> <span id="modalUrunIndirim"></span></p>
+            <p><strong>Fiyat:</strong> ₺<span id="modalUrunFiyat"></span> <del class="text-muted">₺<span id="modalUrunEskiFiyat"></span></del></p>
+            <hr />
+            <h6>Ürün Özellikleri</h6>
+            <ul id="modalUrunOzellikleri">
+              <!-- Örnek özellikler burada gösterilecek -->
+            </ul>
+            <hr />
+            <h6>Satıcı Bilgisi</h6>
+            <p id="modalUrunSatici">MiyHav Petshop</p>
+            <hr />
+            <h6>Soru & Yorumlar</h6>
+            <div id="modalUrunYorumlar" style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+              <!-- Yorumlar JS ile gelecek -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+        <button type="button" class="btn btn-success">Sepete Ekle</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class=" text-light pt-5 pb-4" style="background-color: #4d301d;">
+    <div class="container text-md-start text-center">
+        <div class="row">
+
+        <!-- Hakkımızda -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-3">MiyHav</h5>
+            <p>Hayvan sahiplendirmeyi ücretsiz ve güvenilir hale getirmek için kurulan bir platform. Aynı zamanda barınaklara destek sağlayan bir topluluk.</p>
+        </div>
+
+        <!-- Hızlı Erişim -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">Hızlı Erişim</h6>
+            <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Anasayfa</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Yuva Arayanlar</a></li>
+            <li><a href="#vet" class="text-light text-decoration-none">Veterinerler</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Petshop</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Bağış Yap</a></li>
+            </ul>
+        </div>
+
+        <!-- İletişim Bilgileri -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">İletişim</h6>
+            <p><i class="fas fa-home me-2"></i> İstanbul, Türkiye</p>
+            <p><i class="fas fa-envelope me-2"></i> info@miyhav.com</p>
+            <p><i class="fas fa-phone me-2"></i> +90 532 123 45 67</p>
+            <p><i class="fas fa-clock me-2"></i> 09:00 - 18:00 (Hafta içi)</p>
+        </div>
+
+        <!-- Sosyal Medya -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-3">Bizi Takip Edin</h6>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        </div>
+
+        <!-- Alt Bilgi -->
+        <div class="text-center mt-4 pt-3 border-top border-secondary">
+        <p class="mb-0">&copy; 2025 MiyHav | Tüm Hakları Saklıdır.</p>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="../js/product.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    </body>
+    </html>

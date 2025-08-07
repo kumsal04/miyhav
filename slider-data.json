@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "img": "../img/slider-1.webp",
+    "baslik": "Hills büyük paket kedi mamaları %10 indirimli!",
+    "aciklama": "Buharlı tarak ve tüy toplama rulosu hediyeli.",
+    "kampanyaSonTarih": "2025-08-15",
+    "stokAdedi": 25,
+    "kisiSayisi": 150
+  },
+  {
+    "id": 2,
+    "img": "../img/slider-2.webp",
+    "baslik": "Proplan 10 kg kedi mamaları sepette %10 indirimli!",
+    "aciklama": "Garden Mix çorba hediyeli.",
+    "kampanyaSonTarih": "2025-08-30",
+    "stokAdedi": 40,
+    "kisiSayisi": 230
+  },
+  {
+    "id": 3,
+    "img": "../img/slider-3.webp",
+    "baslik": "Royal Canin 10 kg kedi mamaları sepette %15 indirimli!",
+    "kampanyaSonTarih": "2025-09-05",
+    "stokAdedi": 12,
+    "kisiSayisi": 75
+  },
+  {
+    "id": 4,
+    "img": "../img/slider-4.webp",
+    "baslik": "Royal Canin Kitten mamalarda kaçırılmayacak fırsat paketi!",
+    "kampanyaSonTarih": "2025-08-20",
+    "stokAdedi": 33,
+    "kisiSayisi": 180
+  },
+  {
+    "id": 5,
+    "img": "../img/slider-5.webp",
+    "baslik": "Tüm kedi oyuncaklarında sepette %10 indirim!",
+    "kampanyaSonTarih": "2025-09-10",
+    "stokAdedi": 50,
+    "kisiSayisi": 290
+  },
+  {
+    "id": 6,
+    "img": "../img/slider-6.webp",
+    "baslik": "Tüm köpek taşıma çantalarında sepette ekstra %10 indirim!",
+    "kampanyaSonTarih": "2025-08-25",
+    "stokAdedi": 22,
+    "kisiSayisi": 140
+  }
+]

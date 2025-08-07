@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>MiyHav</title>
+</head>
+<body>
+
+    <section class="top fixed-top navbar-expand" style="background-color: #F1E7E7;">
+        <div class="container p-1 fs-5">
+            <div class="row align-items-center">
+                <div class="col-lg-2  col-md-4 col-sm-4 col-4">
+                     <a class="navbar-brand" href="index.html">
+                         <img  src="../img/miyhav-logo.png" alt="MiyHav Logo" width="150" class="img-fluid rounded-circle">
+                    </a>
+                </div>
+                
+                <div class="col-lg-5 col-md-6 col-sm-6 col-8 order-lg-last">
+                    <div class="text-end">
+                        
+                              <!-- Hesabım-->
+                              <a href="account.html" class="btn btn-outline-light text-black">
+                                <i class="fa-solid fa-paw"></i> Hesabım
+                              </a>
+
+                            <!-- Giriş Yap -->
+                                <a href="login.html" class="btn btn-outline-light text-black">
+                                <i class="bi bi-person-circle"></i>
+                                <span>Giriş Yap</span>
+                                </a>
+
+                            <!-- Kayıt Ol -->
+                                <a href="register.html" class="btn btn-outline-light text-black">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <span>Kayıt Ol</span>
+                                </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-12">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-pill" placeholder="...">
+                            <button class="btn btn-outline-light text-black">
+                                <i class="bi bi-search-heart-fill"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg " style="margin-top:159px; background-color: #FFDBDB;">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-top">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar-top" class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="index.html" class="nav-link ">Anasayfa</a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="donation.html" class="nav-link">Bağış Yap</a>
+                    </li>
+                    <li class="nav-item dropdown btn btn-outline-light text-black">
+                        <a href="product.html" class="nav-link">Ürünler</a>
+                    </li>
+                    <li class="nav-item dropdown btn btn-outline-light text-black">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >Markalar</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item">Royal Canin</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Pro Plan (Purina)</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Hill's Science Plan</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Reflex</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Whiskas</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">N&D (Farmina) </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="adoption.html" class="nav-link">Yuva Arayanlar</a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="basket.html" class="nav-link"><i class="bi bi-bag-check"></i>
+                            <span>Sepetim</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+ <div class="container py-3">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-5">
+
+        <div class="card shadow-sm p-4">
+          
+          <!-- Logo -->
+          <div class="text-center mb-2">
+            <img src="../img/miyhav-logo.png" alt="Logo" style="width: 150px;">
+          </div>
+
+          <!-- giriş -->
+          <ul class="nav nav-tabs mb-4 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Giriş</a>
+            </li>
+           
+          </ul>
+
+          <!-- Form -->
+          <form>
+            <div class="mb-2">
+              <label for="email" class="form-label">E-posta *</label>
+              <input type="email" class="form-control" id="email" placeholder="E-postanızı girin">
+            </div>
+            <div class="mb-2">
+              <label for="password" class="form-label">Şifre *</label>
+              <input type="password" class="form-control" id="password" placeholder="Şifrenizi girin">
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn bg-danger-subtle text-dark">Giriş</button>
+            </div>
+          </form>
+
+          <!-- Şifremi Unuttum -->
+          <div class="text-start mt-2">
+            <a href="#" class="text-decoration-none">Şifremi Unuttum</a>
+          </div>
+
+          <!-- Veya -->
+          <div class="text-center my-2">veya</div>
+
+          <!-- Facebook -->
+          <div class="d-grid mb-2">
+            <a href="#" class="btn btn-outline-primary">
+              <i class="fab fa-facebook-f me-2"></i>Facebook ile Giriş Yap
+            </a>
+          </div>
+
+          <!-- Google -->
+          <div class="d-grid">
+            <a href="#" class="btn btn-outline-danger">
+              <i class="fab fa-google me-2"></i>Google ile Giriş Yap
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class=" text-light pt-5 pb-4" style="background-color: #4d301d;">
+  <div class="container text-md-start text-center">
+    <div class="row">
+
+      <!-- Hakkımızda -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">MiyHav</h5>
+        <p>Hayvan sahiplendirmeyi ücretsiz ve güvenilir hale getirmek için kurulan bir platform. Aynı zamanda barınaklara destek sağlayan bir topluluk.</p>
+      </div>
+
+      <!-- Hızlı Erişim -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Hızlı Erişim</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Anasayfa</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Yuva Arayanlar</a></li>
+          <li><a href="#vet" class="text-light text-decoration-none">Veterinerler</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Petshop</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Bağış Yap</a></li>
+        </ul>
+      </div>
+
+      <!-- İletişim Bilgileri -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">İletişim</h6>
+        <p><i class="fas fa-home me-2"></i> İstanbul, Türkiye</p>
+        <p><i class="fas fa-envelope me-2"></i> info@miyhav.com</p>
+        <p><i class="fas fa-phone me-2"></i> +90 532 123 45 67</p>
+        <p><i class="fas fa-clock me-2"></i> 09:00 - 18:00 (Hafta içi)</p>
+      </div>
+
+      <!-- Sosyal Medya -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Bizi Takip Edin</h6>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </div>
+
+    <!-- Alt Bilgi -->
+    <div class="text-center mt-4 pt-3 border-top border-secondary">
+      <p class="mb-0">&copy; 2025 MiyHav | Tüm Hakları Saklıdır.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>

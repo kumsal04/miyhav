@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "isim": "Duygu Yılmaz",
+    "unvan": "Veteriner Hekim",
+    "sehir": "İzmir",
+    "uzmanlik": "Kedi & Köpek Hastalıkları",
+    "aciklama": "Hayvan dostlarımızın sağlığı için tutkuyla çalışan bir veterinerim.",
+    "telefon": "05551234567",
+    "email": "duygu.yilmaz@patiyuvasi.com",
+    "gorsel": "../img/vet-1.webp"
+  },
+  {
+    "id": 2,
+    "isim": "Melis Akçay",
+    "unvan": "Veteriner Hekim",
+    "sehir": "Ankara",
+    "uzmanlik": "Aşı & Koruyucu Hekimlik",
+    "aciklama": "Evcil hayvanların daha uzun ve sağlıklı yaşamaları için çalışıyorum.",
+    "telefon": "05324567890",
+    "email": "melis.akcay@patiyuvasi.com",
+    "gorsel": "../img/vet-2.webp"
+  },
+  {
+    "id": 3,
+    "isim": "Aslıhan Demir",
+    "unvan": "Veteriner Hekim",
+    "sehir": "İstanbul",
+    "uzmanlik": "Acil Müdahale",
+    "aciklama": "Hayvanların dili kalptir; onları anlamak için kalbinizi dinleyin.",
+    "telefon": "05433456789",
+    "email": "aslihan.demir@patiyuvasi.com",
+    "gorsel": "../img/vet-4.jpg"
+  },
+  {
+    "id": 4,
+    "isim": "Burak Kaya",
+    "unvan": "Veteriner Hekim",
+    "sehir": "Bursa",
+    "uzmanlik": "Egzotik Hayvanlar",
+    "aciklama": "Her canlı eşsizdir, her tedavi özel bir yaklaşım ister.",
+    "telefon": "05067890123",
+    "email": "burak.kaya@patiyuvasi.com",
+    "gorsel": "../img/vet-3.jpg"
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "id": 1,
+    "isim": "N&D Tavuklu Tahılsız Yetişkin Kedi Maması 1.5kg",
+    "fiyat": 429,
+    "eskiFiyat": 479,
+    "indirim": "10%",
+    "puan": 4.5,
+    "degerlendirme": 2,
+    "gorsel": "../img/cat-product-1.webp",
+    "kategori": "Mama",
+    "marka": "N&D",
+    "yas": "Yetişkin",
+    "tur": "Kedi",
+    "populer": true,
+    "ozellikler": [
+      "Tahılsız formül",
+      "Yüksek protein içeriği",
+      "Omega 3 ve 6 yağ asitleri",
+      "Sindirim dostu prebiyotikler"
+    ],
+    "yorumlar": [
+      {"kullanici": "Ayşe", "yorum": "Kedim bayıldı, sindirimi çok iyi."},
+      {"kullanici": "Mehmet", "yorum": "Fiyat performans olarak çok iyi."}
+    ],
+    "satici": "MiyHav Petshop"
+  },
+  {
+    "id": 2,
+    "isim": "Zilli Top Oyuncak",
+    "fiyat": 39,
+    "eskiFiyat": 49,
+    "indirim": "20%",
+    "puan": 4.8,
+    "degerlendirme": 6,
+    "gorsel": "../img/cat-product-2.webp",
+    "kategori": "Oyuncak",
+    "marka": "",
+    "yas": "Yavru",
+    "tur": "Kedi",
+    "populer": false,
+    "ozellikler": [
+      "Ses çıkaran zilli oyuncak",
+      "Dayanıklı malzeme",
+      "Kedi dostu tasarım"
+    ],
+    "yorumlar": [
+      {"kullanici": "Elif", "yorum": "Kedim çok sevdi, çok eğlenceli."},
+      {"kullanici": "Deniz", "yorum": "Fiyatı uygun, tavsiye ederim."}
+    ],
+    "satici": "Oyuncak Dünyası"
+  },
+  {
+    "id": 3,
+    "isim": "Kedi Yaş Mama",
+    "fiyat": 200,
+    "eskiFiyat": 249,
+    "indirim": "25%",
+    "puan": 4.1,
+    "degerlendirme": 16,
+    "gorsel": "../img/cat-product-3.webp",
+    "kategori": "Mama",
+    "marka": "Pro Plan",
+    "yas": "Yavru",
+    "tur": "Kedi",
+    "populer": false,
+    "ozellikler": [
+      "Lezzetli yaş mama",
+      "İçeriğinde dengeli vitaminler",
+      "Kedinizin bağışıklığını destekler"
+    ],
+    "yorumlar": [
+      {"kullanici": "Seda", "yorum": "Kedim severek yiyor, çok memnunuz."},
+      {"kullanici": "Burak", "yorum": "Besleyici ve uygun fiyatlı."}
+    ],
+    "satici": "PetShop Plus"
+  },
+  {
+    "id": 4,
+    "isim": "Gimcat Kedi Macunu Derma Paste 50 Gr",
+    "fiyat": 499,
+    "eskiFiyat": 299,
+    "indirim": "40%",
+    "puan": 4.2,
+    "degerlendirme": 120,
+    "gorsel": "../img/cat-product-4.webp",
+    "kategori": "Takviye Gıda",
+    "marka": "Gimcat",
+    "yas": "",
+    "tur": "Kedi",
+    "populer": false,
+    "ozellikler": [
+      "Sağlıklı tüy bakımı",
+      "Cilt destekleyici formül",
+      "Lezzetli macun"
+    ],
+    "yorumlar": [
+      {"kullanici": "Merve", "yorum": "Tüyleri parlak oldu, çok faydalı."},
+      {"kullanici": "Ahmet", "yorum": "Kedim macunu severek yiyor."}
+    ],
+    "satici": "Gimcat Resmi Satıcı"
+  },
+  {
+    "id": 5,
+    "isim": "Gimcat Claire Elekli Kedi Kumu Paspası 55x75 Mavi",
+    "fiyat": 999,
+    "eskiFiyat": 199,
+    "indirim": "80%",
+    "puan": 4.2,
+    "degerlendirme": 350,
+    "gorsel": "../img/cat-product-5.jpeg",
+    "kategori": "Aksesuar",
+    "marka": "*Gimcat",
+    "yas": "",
+    "tur": "Kedi",
+    "populer": false,
+    "ozellikler": [
+      "Kolay temizlenir",
+      "Dayanıklı malzeme",
+      "Modern ve şık tasarım"
+    ],
+    "yorumlar": [
+      {"kullanici": "Selin", "yorum": "Çok kullanışlı ve şık bir paspas."},
+      {"kullanici": "Tuncay", "yorum": "Kedim kumu taşımıyor, harika ürün."}
+    ],
+    "satici": "Evcil Dünyası"
+  },
+  {
+    "id": 6,
+    "isim": "Tom Çıkarılabilir Minderli Ultra Yumuşak Kedi Yatağı",
+    "fiyat": 789,
+    "eskiFiyat": 999,
+    "indirim": "15%",
+    "puan": 4.9,
+    "degerlendirme": 1100,
+    "gorsel": "../img/cat-product-7.webp",
+    "kategori": "Yatak",
+    "marka": "*Advance",
+    "yas": "",
+    "tur": "Kedi",
+    "populer": true,
+    "ozellikler": [
+      "Çıkarılabilir yumuşak minder",
+      "Kolay temizlenebilir kumaş",
+      "Ergonomik tasarım"
+    ],
+    "yorumlar": [
+      {"kullanici": "Deniz", "yorum": "Kedim çok rahat ediyor, kaliteli ürün."},
+      {"kullanici": "Burcu", "yorum": "Minderi çıkarıp yıkamak çok kolay."}
+    ],
+    "satici": "Pet Konfor"
+  },
+  {
+    "id": 7,
+    "isim": "Reflex Kuzulu Pirinçli ve Sebzeli Yetişkin Köpek Maması 3kg",
+    "fiyat": 429,
+    "eskiFiyat": 579,
+    "indirim": "15%",
+    "puan": 4.5,
+    "degerlendirme": 6,
+    "gorsel": "../img/dog-product-1.webp",
+    "kategori": "Mama",
+    "marka": "Reflex",
+    "yas": "Yetişkin",
+    "tur": "Köpek",
+    "populer": true,
+    "ozellikler": [
+      "Kuzulu, pirinçli ve sebzeli formül",
+      "Dengeli beslenme için vitaminler",
+      "Sindirim dostu prebiyotikler"
+    ],
+    "yorumlar": [
+      {"kullanici": "Can", "yorum": "Köpeğim çok sevdi, sindirimi rahatladı."},
+      {"kullanici": "Ayşe", "yorum": "Fiyatına göre oldukça başarılı ürün."}
+    ],
+    "satici": "MiyHav Petshop"
+  },
+  {
+    "id": 8,
+    "isim": "Pro Plan Puppy Small&Mini Sensitive Skin Somonlu Küçük Irk Yavru Köpek Maması 3kg",
+    "fiyat": 1139,
+    "eskiFiyat": 1269,
+    "indirim": "5%",
+    "puan": 4.8,
+    "degerlendirme": 170,
+    "gorsel": "../img/dog-product-2.webp",
+    "kategori": "Mama",
+    "marka": "Pro Plan",
+    "yas": "Yavru",
+    "tur": "Köpek",
+    "populer": false,
+    "ozellikler": [
+      "Hassas ciltler için özel formül",
+      "Somonlu lezzet",
+      "Bağışıklık destekleyici içerik"
+    ],
+    "yorumlar": [
+      {"kullanici": "Deniz", "yorum": "Köpeğim tüylerini çok sevdi."},
+      {"kullanici": "Murat", "yorum": "Küçük ırklar için ideal mama."}
+    ],
+    "satici": "MiyHav Petshop"
+  },
+  {
+    "id": 9,
+    "isim": "Petlebi Kedi ve Köpekler İçin Yedek Tüy Toplama Rulosu (60 Yaprak) (2 Adet)",
+    "fiyat": 70,
+    "eskiFiyat": 90,
+    "indirim": "25%",
+    "puan": 4.1,
+    "degerlendirme": 226,
+    "gorsel": "../img/dog-product-3.webp",
+    "kategori": "Aksesuar",
+    "marka": "",
+    "yas": "",
+    "tur": "Köpek",
+    "populer": false,
+    "ozellikler": [
+      "Yedek tüy toplama yapışkanı",
+      "60 yapraklı 2 adet paket",
+      "Kolay kullanım"
+    ],
+    "yorumlar": [
+      {"kullanici": "Ela", "yorum": "Tüy toplamada çok işime yarıyor."},
+      {"kullanici": "Okan", "yorum": "Ev temizliği kolaylaştı."}
+    ],
+    "satici": "Evcil Dünyası"
+  },
+  {
+    "id": 10,
+    "isim": "PROONE Kiraz Çiçeği Aromalı Köpek Şampuanı 400ml",
+    "fiyat": 109,
+    "eskiFiyat": 159,
+    "indirim": "40%",
+    "puan": 4.2,
+    "degerlendirme": 1500,
+    "gorsel": "../img/dog-product-4.webp",
+    "kategori": "Aksesuar",
+    "marka": "",
+    "yas": "",
+    "tur": "Köpek",
+    "populer": true,
+    "ozellikler": [
+      "Kiraz çiçeği aroması",
+      "Cilt dostu formül",
+      "Parlak ve sağlıklı tüyler"
+    ],
+    "yorumlar": [
+      {"kullanici": "Esra", "yorum": "Köpeğim şampuana bayılıyor."},
+      {"kullanici": "Barış", "yorum": "Cildi çok iyi koruyor."}
+    ],
+    "satici": "Pet Bakım Merkezi"
+  },
+  {
+    "id": 11,
+    "isim": "Terra Eco Köpek Oyuncağı 17x11,5x15,5cm (Yeşil)",
+    "fiyat": 322,
+    "eskiFiyat": 422,
+    "indirim": "20%",
+    "puan": 3.2,
+    "degerlendirme": 50,
+    "gorsel": "../img/dog-product-5.webp",
+    "kategori": "Oyuncak",
+    "marka": "*",
+    "yas": "",
+    "tur": "Köpek",
+    "populer": false,
+    "ozellikler": [
+      "Ekolojik malzeme",
+      "Dayanıklı ve güvenli",
+      "Köpeklerin sevdiği renk"
+    ],
+    "yorumlar": [
+      {"kullanici": "Selim", "yorum": "Oyuncağı çok çabuk sevdi."},
+      {"kullanici": "Gül", "yorum": "Dayanıklılığı biraz daha iyi olmalı."}
+    ],
+    "satici": "Köpek Oyuncakları A.Ş."
+  },
+  {
+    "id": 12,
+    "isim": "Liberty Otomatik Şerit Gezdirme Kayışı 5m (Pembe) [M]",
+    "fiyat": 619,
+    "eskiFiyat": 689,
+    "indirim": "15%",
+    "puan": 5.0,
+    "degerlendirme": 100,
+    "gorsel": "../img/dog-product-6.webp",
+    "kategori": "Eğitim",
+    "marka": "*",
+    "yas": "",
+    "tur": "Köpek",
+    "populer": true,
+    "ozellikler": [
+      "Kolay kullanımlı otomatik kayış",
+      "Dayanıklı ve esnek malzeme",
+      "Güvenlik kilidi bulunur"
+    ],
+    "yorumlar": [
+      {"kullanici": "Ali", "yorum": "Köpeğim çok rahat ediyor, sağlam ürün."},
+      {"kullanici": "Ayşe", "yorum": "Uzun ve dayanıklı, tavsiye ederim."}
+    ],
+    "satici": "PetShop Güven"
+  },
+  {
+    "id": 13,
+    "isim": "Pet Comfort Lima Varius 08 Orta Irk Köpek Yatağı 60x90cm (Kahverengi) [L]",
+    "fiyat": 1400,
+    "eskiFiyat": 1800,
+    "indirim": "25%",
+    "puan": 4.9,
+    "degerlendirme": 1100,
+    "gorsel": "../img/dog-product-7.webp",
+    "kategori": "Yatak",
+    "marka": "",
+    "yas": "",
+    "tur": "Köpek",
+    "populer": true,
+    "ozellikler": [
+      "Orta irk için ergonomik tasarım",
+      "Kolay temizlenebilir kumaş",
+      "Yumuşak ve dayanıklı dolgulu"
+    ],
+    "yorumlar": [
+      {"kullanici": "Murat", "yorum": "Köpeğim çok sevdi, rahat ve kaliteli."},
+      {"kullanici": "Seda", "yorum": "Fiyatı yüksek ama değiyor."}
+    ],
+    "satici": "Evcil Konfor"
+  }
+]

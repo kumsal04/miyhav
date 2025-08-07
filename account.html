@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>MiyHav</title>
+</head>
+<body>
+
+    <section class="top fixed-top navbar-expand" style="background-color: #F1E7E7;">
+        <div class="container p-1 fs-5">
+            <div class="row align-items-center">
+                <div class="col-lg-2  col-md-4 col-sm-4 col-4">
+                     <a class="navbar-brand" href="index.html">
+                         <img  src="../img/miyhav-logo.png" alt="MiyHav Logo" width="150" class="img-fluid rounded-circle">
+                    </a>
+                </div>
+                
+                <div class="col-lg-5 col-md-6 col-sm-6 col-8 order-lg-last">
+                    <div class="text-end">
+                        
+                              <!-- Hesabım -->
+                              <a href="account.html" class="btn btn-outline-light text-black">
+                                <i class="fa-solid fa-paw"></i> Hesabım
+                              </a>
+                            <!-- Giriş Yap -->
+                                <a href="login.html" class="btn btn-outline-light text-black">
+                                <i class="bi bi-person-circle"></i>
+                                <span>Giriş Yap</span>
+                                </a>
+
+                            <!-- Kayıt Ol -->
+                                <a href="register.html" class="btn btn-outline-light text-black">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <span>Kayıt Ol</span>
+                                </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-12">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-pill" placeholder="...">
+                            <button class="btn btn-outline-light text-black">
+                                <i class="bi bi-search-heart-fill"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg " style="margin-top:159px; background-color: #FFDBDB;">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-top">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar-top" class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="index.html" class="nav-link ">Anasayfa</a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="donation.html" class="nav-link">Bağış Yap</a>
+                    </li>
+                    <li class="nav-item dropdown btn btn-outline-light text-black">
+                        <a href="product.html" class="nav-link">Ürünler</a>
+                    </li>
+                    <li class="nav-item dropdown btn btn-outline-light text-black">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >Markalar</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item">Royal Canin</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Pro Plan (Purina)</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Hill's Science Plan</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Reflex</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Whiskas</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">N&D (Farmina) </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="adoption.html" class="nav-link">Yuva Arayanlar</a>
+                    </li>
+                    <li class="nav-item btn btn-outline-light text-black">
+                        <a href="basket.html" class="nav-link"><i class="bi bi-bag-check"></i>
+                            <span>Sepetim</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+ <div class="container my-5">
+  <div class="row g-4">
+
+    <!-- Kullanıcı Bilgileri -->
+    <div class="col-lg-4">
+      <div class="profile-card text-start">
+        <img src="../img/profile-avatar.png" alt="Kullanıcı" class="rounded-circle mb-3" width="120">
+        <h5 class="fw-bold">Ayca Kumsal</h5>
+        <p class="text-muted">aycakumsal1712@gmail.com</p>
+        <hr>
+        <p><i class="bi bi-geo-alt-fill me-1 text-danger"></i> izmir</p>
+        <p><i class="bi bi-heart-fill me-1 text-danger"></i> 3 Favori</p>
+        <p><i class="bi bi-bag-check-fill me-1 text-success"></i> 2 Bağış, 3 Ürün</p>
+        <a href="#" class="btn btn-outline-danger btn-sm mt-2"><i class="bi bi-box-arrow-right"></i> Çıkış Yap</a>
+      </div>
+    </div>
+
+    <!-- Favoriler  -->
+    <div class="col-lg-8">
+          <h3 class="mb-4">Favori İlanlarım</h3>
+          <div id="favoriIlanlar"></div>
+        </div>
+      </div>
+
+
+      <!-- Ödeme Modalı -->
+<div class="modal fade" id="odemeModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Ödeme Bilgileri</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      
+      <div class="modal-body">
+        <form id="odemeForm">
+
+          <!-- İsim -->
+          <div class="mb-3">
+            <label>Ad Soyad</label>
+            <input type="text" class="form-control" required>
+          </div>
+
+          <!-- Ödeme Yöntemi Seç -->
+          <div class="mb-3">
+            <label>Ödeme Yöntemi</label>
+            <select class="form-select" id="odemeYontemi" onchange="odemeAlanlariniGoster()">
+              <option value="kart">Kredi Kartı</option>
+              <option value="havale">Banka Havalesi</option>
+              <option value="kapida">Kapıda Ödeme</option>
+            </select>
+          </div>
+
+          <!-- Kart Bilgileri -->
+          <div id="kartBilgileri">
+            <div class="mb-2">
+              <label>Kart Numarası</label>
+              <input type="text" class="form-control" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <label>Son Kullanma</label>
+                <input type="text" class="form-control" placeholder="MM/YY">
+              </div>
+              <div class="col-md-6 mb-2">
+                <label>CVV</label>
+                <input type="text" class="form-control" placeholder="123">
+              </div>
+            </div>
+          </div>
+
+          <!-- Havale Bilgileri -->
+          <div id="havaleBilgileri" class="d-none">
+            <p class="alert alert-info small">Lütfen aşağıdaki IBAN'a havale yapınız:</p>
+            <p><strong>IBAN:</strong> TR00 0000 0000 0000 0000 0000 00</p>
+            <p class="text-muted">Açıklamaya adınızı ve sipariş numaranızı yazmayı unutmayın.</p>
+          </div>
+
+          <!-- Kapıda Ödeme Bilgisi -->
+          <div id="kapidaBilgileri" class="d-none">
+            <p class="alert alert-warning small">Kapıda ödeme yalnızca fiziki ürünlerde geçerlidir.</p>
+          </div>
+
+          <!-- KVKK Onayı -->
+          <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" required>
+            <label class="form-check-label">KVKK metnini okudum, onaylıyorum.</label>
+          </div>
+
+          <!-- Gönder -->
+          <button type="submit" class="btn bg-danger-subtle w-100">Ödemeyi Tamamla</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- İlan Ver Modal -->
+<div class="modal fade" id="ilanModal" tabindex="-1" aria-labelledby="ilanModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form id="ilanForm" class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ilanModalLabel">Yeni Sahiplendirme İlanı</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-2">
+          <label class="form-label" for="petName">İsim</label>
+          <input type="text" class="form-control" id="petName" required>
+        </div>
+        <div class="mb-2">
+          <label class="form-label" for="petType">Hayvan Türü</label>
+          <select class="form-select" id="petType" required>
+            <option value="" disabled selected>Seçiniz</option>
+            <option>Kedi</option>
+            <option>Köpek</option>
+          </select>
+        </div>
+        <div class="mb-2">
+          <label class="form-label" for="petAge">Yaş</label>
+          <input type="text" class="form-control" id="petAge" placeholder="Örn: 2 Yaş" required>
+        </div>
+        <div class="mb-2">
+          <label class="form-label">Cinsiyet</label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="modErkek" value="Erkek" required>
+            <label class="form-check-label" for="modErkek">Erkek</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="modDişi" value="Dişi" required>
+            <label class="form-check-label" for="modDişi">Dişi</label>
+          </div>
+        </div>
+        <div class="mb-2">
+          <label class="form-label" for="petCity">Şehir</label>
+          <input type="text" class="form-control" id="petCity" required>
+        </div>
+        <div class="mb-2">
+          <label class="form-label" for="petDesc">Açıklama</label>
+          <textarea class="form-control" id="petDesc" rows="3" required></textarea>
+        </div>
+        <div class="mb-2">
+          <label class="form-label" for="petPhoto">Fotoğraf</label>
+          <input type="file" class="form-control" id="petPhoto" accept="image/*" required>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-success">İlanı Gönder</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- İlanlarım kısmı -->
+<div class="mb-4">
+  <h5 class="section-title">İlanlarım</h5>
+  <div id="noAdsAlert" class="alert alert-info small">
+    Henüz ilanınız bulunmamaktadır.
+    <a href="#" class="alert-link" data-bs-toggle="modal" data-bs-target="#ilanModal">İlan Oluştur</a>
+  </div>
+  <div id="ilanlarContainer" class="row g-3"></div>
+</div>
+
+
+
+
+
+
+
+      <!-- Profil Bilgilerini Güncelle -->
+<div class="mb-4">
+  <h5 class="section-title">Bilgilerimi Güncelle</h5>
+  <form>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label for="ad" class="form-label">Ad Soyad</label>
+        <input type="text" class="form-control" id="ad" value="Ayca Kumsal">
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">E-posta</label>
+        <input type="email" class="form-control" id="email" value="aycakumsal1712@gmail.com">
+      </div>
+      <div class="col-md-6">
+        <label for="sehir" class="form-label">Şehir</label>
+        <select id="sehir" class="form-select">
+          <option selected>İstanbul</option>
+          <option>Ankara</option>
+          <option>İzmir</option>
+          <option>Bursa</option>
+          <option>Antalya</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="sifre" class="form-label">Yeni Şifre (isteğe bağlı)</label>
+        <input type="password" class="form-control" id="sifre" placeholder="Yeni şifre girin">
+      </div>
+    </div>
+    <button type="submit" class="btn custom-pink-btn mt-3">Bilgileri Güncelle</button>
+  </form>
+</div>
+
+    </div>
+ 
+
+
+<footer class=" text-light pt-5 pb-4" style="background-color: #4d301d;">
+  <div class="container text-md-start text-center">
+    <div class="row">
+
+      <!-- Hakkımızda -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">MiyHav</h5>
+        <p>Hayvan sahiplendirmeyi ücretsiz ve güvenilir hale getirmek için kurulan bir platform. Aynı zamanda barınaklara destek sağlayan bir topluluk.</p>
+      </div>
+
+      <!-- Hızlı Erişim -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Hızlı Erişim</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Anasayfa</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Yuva Arayanlar</a></li>
+          <li><a href="#vet" class="text-light text-decoration-none">Veterinerler</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Petshop</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Bağış Yap</a></li>
+        </ul>
+      </div>
+
+      <!-- İletişim Bilgileri -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">İletişim</h6>
+        <p><i class="fas fa-home me-2"></i> İstanbul, Türkiye</p>
+        <p><i class="fas fa-envelope me-2"></i> info@miyhav.com</p>
+        <p><i class="fas fa-phone me-2"></i> +90 532 123 45 67</p>
+        <p><i class="fas fa-clock me-2"></i> 09:00 - 18:00 (Hafta içi)</p>
+      </div>
+
+      <!-- Sosyal Medya -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Bizi Takip Edin</h6>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-light me-3 fs-5"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </div>
+
+    <!-- Alt Bilgi -->
+    <div class="text-center mt-4 pt-3 border-top border-secondary">
+      <p class="mb-0">&copy; 2025 MiyHav | Tüm Hakları Saklıdır.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/account.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
